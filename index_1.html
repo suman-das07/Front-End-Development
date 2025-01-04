@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant(1)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+</head>
+<body>
+    <div class="video">
+        <video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="page1">
+        <h1 id="greeting"> </h1>
+        <h3>Welcome to Your World.</h3>
+
+        <div class="jarvis">
+            <img src="jarvis.gif" alt="jarvis">
+            <h2>I'm <span id="name">Jarvis</span>, your virtual assistant</h2>
+            <img src="voice.gif" alt="voice-gif" id="voice-img">
+            <button id="speak"><i class="ri-mic-2-ai-fill"></i><h4 id="content">ACTIVATE JARVIS</h4></button>
+            <p id="transcript"></p>
+        </div>
+    </div>
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+</body>
+</html>
